@@ -12,12 +12,14 @@
     --lh-18: 18.4px;
     --lh-24: 24px;
     --lh-41: 41.8px;
+    --lh-52: 52.8px;
     --lh-70: 70px;
     /***** color *****/
     --color-deep-blue: #00171F;
     --color-sky-blue: #00A8E8;
     --bg-sky-blue: #00A8E8;
     --color-prussian-blue: #003459;
+    --bg-clear-skies: #EAF9FF;
 }
 
 
@@ -62,6 +64,10 @@
     line-height: var(--lh-41);
 }
 
+.lh-52 {
+    line-height: var(--lh-52);
+}
+
 .lh-70 {
     line-height: var(--lh-70);
 }
@@ -82,6 +88,10 @@
 
 .color-prussian-blue {
     color: var(--color-prussian-blue) !important;
+}
+
+.bg-clear-skies {
+    background-color: var(--bg-clear-skies);
 }
 
 .font-primary {
