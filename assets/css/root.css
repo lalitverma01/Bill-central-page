@@ -17,6 +17,7 @@
     --color-deep-blue: #00171F;
     --color-sky-blue: #00A8E8;
     --bg-sky-blue: #00A8E8;
+    --color-prussian-blue: #003459;
 }
 
 
@@ -77,6 +78,10 @@
 
 .bg-sky-blue {
     background-color: var(--bg-sky-blue);
+}
+
+.color-prussian-blue {
+    color: var(--color-prussian-blue) !important;
 }
 
 .font-primary {

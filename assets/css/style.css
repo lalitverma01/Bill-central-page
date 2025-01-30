@@ -17,6 +17,10 @@
     max-width: 1140px !important;
 }
 
+.max-w-506 {
+    max-width: 506px;
+}
+
 .mb-22 {
     margin-bottom: 22px;
 }
@@ -35,6 +39,10 @@
 
 .mt-122 {
     margin-top: 122px !important;
+}
+
+.mt-254 {
+    margin-top: 254px;
 }
 
 .gap-9 {
@@ -82,13 +90,16 @@
     border: none;
 }
 
+.nav-btn:hover {
+    border-radius: 0px;
+}
+
 input {
     border-radius: 0px 100px 100px 20px;
     padding: 22px 0 24px 24px;
     width: 476px;
     height: 66px;
     border: none;
-    /* outline: 0; */
 }
 
 .compare-btn {
@@ -105,6 +116,12 @@ input {
 .img-1 {
     max-width: 558px;
     transform: translateY(18%);
+}
+
+.circle-img {
+    position: absolute;
+    top: 13%;
+    right: 0%;
 }
 
 @media (max-width:991.98px) {
@@ -128,8 +145,46 @@ input {
     }
 }
 
-@media (max-width:767.98px) {
-    .mt-122 {
-        margin-top: 60px !important;
+@media (max-width:375px) {
+    .end {
+        margin-top: 90px;
+    }
+}
+
+@media (max-width:991.98px) {
+
+    .end {
+        color: #ffffff !important;
+    }
+}
+
+@media (min-width:992px) {
+
+    .end {
+        transform: translateY(153px);
+    }
+}
+
+@media (min-width:1040px) {
+    .end {
+        transform: translateY(200px);
+    }
+}
+
+@media (min-width:1100px) {
+    .end {
+        transform: translateY(250px);
+    }
+}
+
+@media (min-width:1200px) {
+    .end {
+        transform: translateY(250px);
+    }
+}
+
+@media (min-width:1400px) {
+    .circle-img {
+        right: -11.6%;
     }
 }
