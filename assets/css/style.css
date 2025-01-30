@@ -1,0 +1,72 @@
+.bg-img {
+    background-image: url(../images/png/header-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.max-w-1140 {
+    max-width: 1140px !important;
+}
+
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.rotate40 {
+    transform: rotate(42deg);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.rotate-45 {
+    transform: rotate(-43deg);
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+
+.nav-btn {
+    padding: 12px 20px 12px 20px;
+    border-radius: 0px 20px 20px 12px;
+    border: none;
+}
+
+@media (max-width:991.98px) {
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        background-color: #00171F;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
+        z-index: 5;
+        backdrop-filter: blur(20px);
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+}
