@@ -1,11 +1,53 @@
+@import url(./root.css);
+
+@font-face {
+    font-family: Helvetica;
+    src: url("/assets/helvetica-255/Helvetica.ttf");
+}
+
+
 .bg-img {
     background-image: url(../images/png/header-bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom-left-radius: 200px;
 }
 
 .max-w-1140 {
     max-width: 1140px !important;
+}
+
+.mb-22 {
+    margin-bottom: 22px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-42 {
+    margin-bottom: 42px;
+}
+
+.mt-109 {
+    margin-top: 109px;
+}
+
+.mt-122 {
+    margin-top: 122px !important;
+}
+
+.gap-9 {
+    gap: 9px !important;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 15px;
 }
 
 .menu-lines {
@@ -34,26 +76,41 @@
     transform: rotate(-43deg);
 }
 
-.gap-24 {
-    gap: 24px;
-}
-
-.py-16 {
-    padding-top: 16px;
-    padding-bottom: 15px;
-}
-
 .nav-btn {
     padding: 12px 20px 12px 20px;
-    border-radius: 0px 20px 20px 12px;
+    border-radius: 0px 50px 50px 12px;
     border: none;
+}
+
+input {
+    border-radius: 0px 100px 100px 20px;
+    padding: 22px 0 24px 24px;
+    width: 476px;
+    height: 66px;
+    border: none;
+    /* outline: 0; */
+}
+
+.compare-btn {
+    position: absolute;
+    right: 2%;
+    top: 13%;
+    transition: all 300ms linear;
+}
+
+.compare-btn:hover {
+    border-radius: 0px;
+}
+
+.img-1 {
+    max-width: 558px;
+    transform: translateY(18%);
 }
 
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
         flex-direction: column;
-        background-color: #00171F;
         width: 100%;
         min-height: 100vh;
         position: fixed;
@@ -63,10 +120,16 @@
         top: 0%;
         transition: all 300ms linear !important;
         z-index: 5;
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(50px);
     }
 
     .show-navbar {
         right: 0 !important;
+    }
+}
+
+@media (max-width:767.98px) {
+    .mt-122 {
+        margin-top: 60px !important;
     }
 }
