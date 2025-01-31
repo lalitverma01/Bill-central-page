@@ -19,6 +19,10 @@
     /***** color *****/
     --color-deep-blue: #00171F;
     --color-sky-blue: #00A8E8;
+    --color-silverback: #CBCBCB;
+    --color-blueprint: #34607E;
+    --color-white: white;
+    --color-black: black;
     --bg-sky-blue: #00A8E8;
     --color-prussian-blue: #003459;
     --bg-crisp-blue: #007EA7;
@@ -92,7 +96,6 @@
 .color-sky-blue {
     color: var(--color-sky-blue);
 }
-
 
 .color-prussian-blue {
     color: var(--color-prussian-blue) !important;

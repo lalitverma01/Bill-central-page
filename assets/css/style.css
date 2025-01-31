@@ -75,6 +75,10 @@
     margin-top: 68px !important;
 }
 
+.mb-100 {
+    margin-bottom: 100px;
+}
+
 .mt-203 {
     margin-top: 203px !important;
 }
@@ -138,17 +142,17 @@
 
 .nav-btn {
     padding: 12px 20px 12px 20px;
-    border-radius: 0px 50px 50px 12px;
+    border-radius: 0px 50px 50px 20px;
     border: none;
 }
 
 .nav-btn:hover {
     background-color: rgb(0, 153, 255) !important;
-    color: white;
+    color: var(--color-white);
 }
 
 .nav-btn:hover .arrow-svg path {
-    stroke: white;
+    stroke: var(--color-white);
 }
 
 input {
@@ -156,7 +160,7 @@ input {
     padding: 22px 0 24px 24px;
     width: 476px;
     height: 66px;
-    border: 1px solid #00000033;
+    border: 1px solid var(--color-silverback);
 }
 
 .compare-btn {
@@ -166,11 +170,11 @@ input {
 }
 
 .compare-btn:hover {
-    color: black !important;
+    color: var(--color-black) !important;
 }
 
 .compare-btn:hover .arrow-2-svg path {
-    stroke: black;
+    stroke: var(--color-black);
 }
 
 .img-1 {
@@ -187,11 +191,22 @@ input {
 /***** section-2 *****/
 .logo {
     filter: grayscale(100%);
+    cursor: pointer;
 }
 
 .logo:hover {
     filter: none;
     opacity: 100%;
+}
+
+.logo-item {
+    overflow: hidden;
+}
+
+.logo {
+    display: inline-block;
+    animation: move 5s linear infinite;
+    animation-iteration-count: infinite;
 }
 
 /***** footer *****/
@@ -203,8 +218,18 @@ input {
     scale: 1.1;
 }
 
+.left-img {
+    left: 0;
+    bottom: 0;
+}
+
+.right-img {
+    right: 0;
+    top: 0;
+}
+
 .line {
-    border-top: 1px solid #FFFFFF33
+    border-top: 1px solid var(--color-blueprint);
 }
 
 .sumbit-btn {
@@ -215,30 +240,26 @@ input {
 }
 
 .sumbit-btn:hover {
-    color: black !important;
+    color: var(--color-black) !important;
 }
 
 .sumbit-btn:hover .arrow-3-svg path {
-    stroke: black;
+    stroke: var(--color-black);
 }
 
 .input-2 {
-    border-radius: 0px 100px 100px 20px;
+    border-radius: 0px 100px 100px 20px !important;
     padding: 22px 0 24px 24px;
     max-width: 476px !important;
     width: 100%;
     height: 66px;
-    border: 1px solid #00000033;
+    border: 1px solid var(--color-silverback);
 }
 
 .box {
     width: 1140px;
     border-radius: 4px;
     transform: translateY(-50%);
-}
-
-.overflow {
-    overflow-x: scroll;
 }
 
 @media (max-width:991.98px) {
@@ -261,8 +282,36 @@ input {
         right: 0 !important;
     }
 
-    .overflow {
-        overflow: scroll;
+    @keyframes move {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        100% {
+            transform: translate(-100%, 0);
+        }
+    }
+
+    .sumbit-btn {
+        position: absolute;
+        right: 26%;
+    }
+}
+
+@media (max-width:767.98px) {
+    .sumbit-btn {
+        position: absolute;
+        right: 19%;
+    }
+}
+
+@media (max-width:575.98px) {
+    .mt-60 {
+        margin-top: 60px !important;
+    }
+
+    .sumbit-btn {
+        right: 8%;
     }
 }
 
@@ -275,7 +324,7 @@ input {
 @media (max-width:991.98px) {
 
     .end {
-        color: #ffffff !important;
+        color: var(--color-white) !important;
     }
 }
 
