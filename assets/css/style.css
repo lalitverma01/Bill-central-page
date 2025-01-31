@@ -178,7 +178,6 @@ input {
 }
 
 .img-1 {
-    max-width: 558px;
     transform: translateY(18%);
 }
 
@@ -291,10 +290,14 @@ input {
             transform: translate(-100%, 0);
         }
     }
-
+    
     .sumbit-btn {
         position: absolute;
         right: 26%;
+    }
+
+    .mt-203 {
+        margin-top: 250px !important;
     }
 }
 
@@ -302,6 +305,10 @@ input {
     .sumbit-btn {
         position: absolute;
         right: 19%;
+    }
+
+    .mt-203 {
+        margin-top: 203;
     }
 }
 
@@ -315,7 +322,14 @@ input {
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:499.98px) {
+    .input-2 {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+@media (max-width:374.98px) {
     .end {
         margin-top: 90px;
     }
