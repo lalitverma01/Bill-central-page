@@ -51,9 +51,13 @@
                                 <li class="d-flex align-items-center justify-content-center">
                                     <button
                                         class="nav-btn fw-bold fs-sm bg-white font-primary color-deep-blue mt-4 mt-lg-0">Get
-                                        Started
-                                        <span><img src="./assets/images/svg/arrow-img.svg"
-                                                alt="arrow-img"></span></button>
+                                        Started <svg class="arrow-svg pl-8" width="15" height="15" viewBox="0 0 15 15"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 14L14 1M14 1V13.48M14 1H1.52" stroke="#00171F"
+                                                stroke-width="1.93338" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </button>
+
                                 </li>
                             </ul>
                         </li>
@@ -80,11 +84,14 @@
                             <form class="position-relative mb-22">
                                 <input class="font-primary fw-normal fs-sm lh-17 color-deep-blue w-100 op acity-50"
                                     type="text" placeholder="Start typing your address">
-                                <div class="d-flex align-items-center gap-9"></div>
                                 <button
                                     class="nav-btn compare-btn font-primary fw-bold fs-sm text-white bg-sky-blue d-flex align-items-center">
-                                    <span>Compare</span><img class="pl-3" src="./assets/images/svg/arrow-img-2.svg"
-                                        alt="arrow-img-2"></button>
+                                    <span>Compare<svg class="arrow-2-svg pl-8" width="15" height="15"
+                                            viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 14L14 1M14 1V13.48M14 1H1.52" stroke="white"
+                                                stroke-width="1.93338" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                </button>
                             </form>
                             <h3 class="font-primary fw-normal fs-md lh-41 mb-0 end color-prussian-blue">More
                                 Than <span class="color-sky-blue">80,000+</span> Companies Trust Bill Central</h3>
@@ -102,7 +109,7 @@
         </div>
     </header>
     <!--**** section-2 ****-->
-    <section class="mb-200">
+    <!-- <section class="mb-200">
         <div class="justify-content-center align-items-center d-flex container max-w-1140">
             <div class="image-parent gap-51 overflow-auto d-flex direction-column">
                 <div class="d-flex gap-51">
@@ -122,72 +129,102 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <footer class="footer-img mt-200">
         <div class="container max-w-1140">
+            <div class="box bg-clear-skies w-100">
+                <h2 class="font-primary fw-normal fs-lg lh-52 color-deep-blue text-center mb-3">Join Our <span
+                        class="fw-bold">Newsletter</span></h2>
+                <div class="d-flex justify-content-center">
+                    <p class="font-primary fw-normal fs-sm lh-24 color-deep-blue text-center max-w-620">Stay up to date
+                        with the latest deals, energy-saving tips, and exclusive offers! Sign up for our
+                        newsletter and never miss out on great savings opportunities again.</p>
+                </div>
+                <form class="position-relative mb-22">
+                    <div class="d-flex justify-content-center">
+                        <input class="input-2 font-primary fw-normal fs-sm lh-17 color-deep-blue w-100 oacity-50"
+                            type="text" placeholder="Enter your email">
+                        <button
+                            class="nav-btn sumbit-btn font-primary fw-bold fs-sm lh-18 text-white bg-crisp-blue">
+                            <span>Sumbit<svg class="arrow-3-svg pl-8" width="15" height="15" viewBox="0 0 15 15"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 14L14 1M14 1V13.48M14 1H1.52" stroke="white" stroke-width="1.93338"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
             <div class="row">
-                <div class="col-lg-8  col-12 mt-68">
-                    <div class="d-flex justify-content-center justify-content-lg-start">
+                <div class="col-lg-8 col-md-4 col-sm-6  col-12 mt-68">
+                    <div class="d-flex justify-content-start">
                         <img src="./assets/images/svg/footer-logo.svg" alt="logo">
                     </div>
-                    <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                    <div class="d-flex justify-content-start text-start">
                         <p class="font-primary fw-normal fs-sm lh-24 text-white opacity-90 mt-28 mb-0 max-w-297">
-                            Ut auctor nisi mauris eu tincidunt facilisi. Diam amet sollicitudin pretium maecenas ornare
+                            Ut auctor nisi mauris eu tincidunt facilisi. Diam amet sollicitudin pretium maecenas
+                            ornare
                             lacus arcu adipiscing.</p>
                     </div>
-                    <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
-                        <h4 class="font-family-primary fw-bold fs-base lh-23 text-white mt-36">Follow Us</h4>
+                    <div class="d-flex justify-content-start text-start">
+                        <h4 class="font-family-primary fw-bold fs-base lh-23 text-white mt-36 mb-0">Follow Us</h4>
                     </div>
-                    <div class="d-flex justify-content-center justify-content-lg-start">
+                    <div class="d-flex justify-content-start">
                         <div class="d-flex gap-15 mt-3">
-                            <div class="circle d-flex justify-content-center align-items-center">
-                                <img src="./assets/images/svg/linkedin-svg.svg" alt="linkdin-logo">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="https://www.linkedin.com/login" target="_blank"><img
+                                        src="./assets/images/svg/linkedin-svg.svg" alt="linkdin-logo"></a>
                             </div>
-                            <div class="circle d-flex justify-content-center align-items-center">
-                                <img src="./assets/images/svg/insta-svg.svg" alt="insta-logo">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="https://www.instragram.com/login" target="_blank"><img
+                                        src="./assets/images/svg/insta-svg.svg" alt="insta-logo"></a>
                             </div>
-                            <div class="circle d-flex justify-content-center align-items-center">
-                                <img src="./assets/images/svg/facebook-svg.svg" alt="facebook-logo">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="https://www.facebook.com/login" target="_blank"><img
+                                        src="./assets/images/svg/facebook-svg.svg" alt="facebook-logo"></a>
                             </div>
-                            <div class="circle d-flex justify-content-center align-items-center">
-                                <img src="./assets/images/svg/twitter-svg.svg" alt="twitter-logo">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="https://www.twitter.com/login" target="_blank">
+                                    <img src="./assets/images/svg/twitter-svg.svg" alt="twitter-logo">
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 mt-68 justify-content-center d-flex justify-content-lg-start">
-                    <ul class="list-unstyled">
-                        <li class="font-primary fw-bold fs-base lh-30 text-white text-center text-lg-start">Quick
+                <div class="col-lg-2 col-md-4 col-sm-3 mt-68 d-flex justify-content-lg-start justify-content-end">
+                    <ul class="list-unstyled mb-0">
+                        <li class="font-primary fw-bold fs-base lh-30 text-white text-start">Quick
                             Link</li>
-                        <li class="mt-12 text-center text-lg-start"><a
+                        <li class="mt-12 text-start"><a
                                 class="text-decoration-none font-primary fw-normal fs-sm lh-18 text-white opacity-90"
                                 href="/">About</a></li>
-                        <li class=" mt-14 text-center text-lg-start"><a
+                        <li class=" mt-14 text-start"><a
                                 class="text-decoration-none font-primary fw-normal fs-sm lh-18 text-white opacity-90"
                                 href="/">How It Works</a></li>
-                        <li class=" mt-14 text-center text-lg-start"><a
+                        <li class=" mt-14 text-start"><a
                                 class="text-decoration-none font-primary fw-normal fs-sm lh-18 text-white opacity-90"
                                 href="/">Services</a></li>
-                        <li class=" mt-14 text-center text-lg-start"><a
+                        <li class=" mt-14 text-start"><a
                                 class="text-decoration-none font-primary fw-normal fs-sm lh-18 text-white opacity-90"
                                 href="/">Testimonials</a></li>
-                        <li class=" mt-14 text-center text-lg-start"><a
+                        <li class=" mt-14 text-start"><a
                                 class="text-decoration-none font-primary fw-normal fs-sm lh-18 text-white opacity-90"
                                 href="/">Why Us</a></li>
-                        <li class=" mt-14 text-center text-lg-start"><a
+                        <li class=" mt-14 text-start"><a
                                 class="text-decoration-none font-primary fw-normal fs-sm lh-18 text-white opacity-90"
                                 href="/">FAQ</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6 col-12 mt-68 d-flex justify-content-lg-end justify-content-center">
-                    <ul class="list-unstyled">
-                        <li class="font-primary fw-bold fs-base lh-30 text-white text-center text-lg-start">
+                <div
+                    class="col-lg-2 col-md-4 col-sm-3 col-12 mt-68 d-flex justify-content-lg-end justify-content-center">
+                    <ul class="list-unstyled mb-0">
+                        <li class="font-primary fw-bold fs-base lh-30 text-white text-start">
                             Services
                         </li>
-                        <li class="mt-12 text-center text-lg-start"><a
+                        <li class="mt-12 text-start"><a
                                 class="text-decoration-none font-primary fw-normal fs-sm lh-18 text-white opacity-90"
                                 href="/">Privacy Policy</a></li>
-                        <li class="mt-14 text-center text-lg-start"><a
+                        <li class="mt-14 text-start"><a
                                 class="text-decoration-none font-primary fw-normal fs-sm lh-18 text-white opacity-90"
                                 href="/">Terms of Services</a></li>
                     </ul>

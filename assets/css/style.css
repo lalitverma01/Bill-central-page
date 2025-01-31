@@ -113,7 +113,12 @@
 }
 
 .nav-btn:hover {
-    border-radius: 0px;
+    background-color: rgb(0, 153, 255) !important;
+    color: white;
+}
+
+.nav-btn:hover .arrow-svg path {
+    stroke: white;
 }
 
 input {
@@ -121,18 +126,21 @@ input {
     padding: 22px 0 24px 24px;
     width: 476px;
     height: 66px;
-    border: none;
+    border: 1px solid #00000033;
 }
 
 .compare-btn {
     position: absolute;
     right: 2%;
     top: 13%;
-    transition: all 300ms linear;
 }
 
 .compare-btn:hover {
-    border-radius: 0px;
+    color: black !important;
+}
+
+.compare-btn:hover .arrow-2-svg path {
+    stroke: black;
 }
 
 .img-1 {
@@ -172,6 +180,10 @@ input {
     max-width: 297px;
 }
 
+.mt-36 {
+    margin-top: 36px;
+}
+
 .gap-15 {
     gap: 15px;
 }
@@ -182,13 +194,6 @@ input {
 
 .pt-54 {
     padding-top: 54px;
-}
-
-.circle {
-    width: 33.5px;
-    height: 33.5px;
-    border-radius: 32.66px;
-    border: 0.84px solid #FCFCFC;
 }
 
 .line {
@@ -212,9 +217,40 @@ input {
     padding-bottom: 20px;
 }
 
-.footer-box {
+.pl-8 {
+    margin-left: 8px;
+}
+
+.max-w-620 {
+    max-width: 620px;
+}
+
+.sumbit-btn {
+    padding: 12px 20px 12px 20px;
+    position: absolute;
+    top: 18%;
+    right: 30%;
+}
+
+.sumbit-btn:hover {
+    color: black !important;
+}
+
+.sumbit-btn:hover .arrow-3-svg path {
+    stroke: black;
+}
+
+.input-2 {
+    border-radius: 0px 100px 100px 20px;
+    padding: 22px 0 24px 24px;
+    max-width: 476px !important;
+    width: 100%;
+    height: 66px;
+    border: 1px solid #00000033;
+}
+
+.box {
     width: 1140px;
-    background-color: #EAF9FF;
     border-radius: 4px;
 }
 

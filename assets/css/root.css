@@ -21,6 +21,7 @@
     --color-sky-blue: #00A8E8;
     --bg-sky-blue: #00A8E8;
     --color-prussian-blue: #003459;
+    --bg-crisp-blue: #007EA7;
     --bg-clear-skies: #EAF9FF;
 }
 
@@ -92,12 +93,17 @@
     color: var(--color-sky-blue);
 }
 
+
+.color-prussian-blue {
+    color: var(--color-prussian-blue) !important;
+}
+
 .bg-sky-blue {
     background-color: var(--bg-sky-blue);
 }
 
-.color-prussian-blue {
-    color: var(--color-prussian-blue) !important;
+.bg-crisp-blue {
+    background-color: var(--bg-crisp-blue);
 }
 
 .bg-clear-skies {
