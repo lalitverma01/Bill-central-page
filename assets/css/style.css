@@ -291,7 +291,7 @@ input {
         }
     }
     
-    .sumbit-btn {
+    .sumb it-btn {
         position: absolute;
         right: 26%;
     }
@@ -302,7 +302,7 @@ input {
 }
 
 @media (max-width:767.98px) {
-    .sumbit-btn {
+    .sumbi t-btn {
         position: absolute;
         right: 19%;
     }
@@ -317,7 +317,7 @@ input {
         margin-top: 60px !important;
     }
 
-    .sumbit-btn {
+    .sumb it-btn {
         right: 8%;
     }
 }
